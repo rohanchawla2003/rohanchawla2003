@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/rohan-chawla-607145229/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://www.linkedin.com/in/rohanchawla2003/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:rohanchawla515@gmail.com"><img src="https://img.shields.io/badge/Email-rohanchawla515%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email rohanchawla515@gmail.com" /></a>
   <img src="https://komarev.com/ghpvc/?username=rohanchawla2003&style=for-the-badge&color=7c3aed&label=Profile+views" alt="profile views" />
 </p>
@@ -175,7 +175,7 @@ I care about understanding systems deeply enough to know **exactly how they brea
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/rohan-chawla-607145229/"><img src="https://img.shields.io/badge/Connect%20on-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn" /></a>
+  <a href="https://www.linkedin.com/in/rohanchawla2003/"><img src="https://img.shields.io/badge/Connect%20on-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn" /></a>
   <a href="mailto:rohanchawla515@gmail.com"><img src="https://img.shields.io/badge/Say-Hello-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Send an email" /></a>
 </p>
 
