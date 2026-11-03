@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="230" viewBox="0 0 1200 230" role="img" aria-label="Fun facts about Rohan, rotating every few seconds.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0f1f"/>
+      <stop offset="1" stop-color="#1a1040"/>
+    </linearGradient>
+    <linearGradient id="hl" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#67e8f9"/>
+      <stop offset="1" stop-color="#f472b6"/>
+    </linearGradient>
+    <clipPath id="frame"><rect width="1200" height="230" rx="22"/></clipPath>
+    <style>
+      text { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+      .mono { font-family: 'Fira Code', Consolas, 'Courier New', monospace; }
+      .bug { animation: bob 3.6s ease-in-out infinite; transform-origin: 150px 120px; }
+      @keyframes bob { 0%,100% { transform: translateY(0) rotate(-6deg); } 50% { transform: translateY(-14px) rotate(6deg); } }
+      .leg { animation: wiggle .5s ease-in-out infinite alternate; transform-box: fill-box; transform-origin: left center; }
+      @keyframes wiggle { from { transform: rotate(-12deg); } to { transform: rotate(12deg); } }
+      .lens { animation: scan 4s ease-in-out infinite; }
+      @keyframes scan { 0%,100% { transform: translate(0,0); } 50% { transform: translate(-30px,18px); } }
+      .fact { opacity: 0; animation: fact 25s ease-in-out infinite both; }
+      .f2 { animation-delay: 5s; } .f3 { animation-delay: 10s; } .f4 { animation-delay: 15s; } .f5 { animation-delay: 20s; }
+      @keyframes fact {
+        0%   { opacity: 0; transform: translateY(14px); }
+        3%   { opacity: 1; transform: translateY(0); }
+        17%  { opacity: 1; transform: translateY(0); }
+        20%  { opacity: 0; transform: translateY(-14px); }
+        100% { opacity: 0; transform: translateY(-14px); }
+      }
+      .dot { fill: #334155; animation: dot 25s steps(1) infinite; }
+      .p2 { animation-delay: 5s; } .p3 { animation-delay: 10s; } .p4 { animation-delay: 15s; } .p5 { animation-delay: 20s; }
+      @keyframes dot { 0% { fill: #a78bfa; } 20% { fill: #334155; } }
+      .spark { animation: spark 2s ease-in-out infinite; }
+      @keyframes spark { 0%,100% { opacity: .2; } 50% { opacity: 1; } }
+    </style>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="230" fill="url(#bg)"/>
+    <circle cx="150" cy="120" r="150" fill="#7c3aed" fill-opacity="0.12"/>
+  </g>
+
+  <!-- floating bug figure -->
+  <g class="bug">
+    <g stroke="#a78bfa" stroke-width="5" stroke-linecap="round" fill="none">
+      <path class="leg" d="M128 100 l-26 -12"/>
+      <path class="leg" d="M124 122 l-30 0" style="animation-delay:.15s"/>
+      <path class="leg" d="M128 144 l-26 12" style="animation-delay:.3s"/>
+      <path class="leg" d="M172 100 l26 -12" style="animation-delay:.1s"/>
+      <path class="leg" d="M176 122 l30 0" style="animation-delay:.25s"/>
+      <path class="leg" d="M172 144 l26 12" style="animation-delay:.4s"/>
+      <path d="M140 72 q-10 -22 -24 -24"/>
+      <path d="M160 72 q10 -22 24 -24"/>
+    </g>
+    <ellipse cx="150" cy="124" rx="30" ry="40" fill="#7c3aed"/>
+    <ellipse cx="150" cy="128" rx="30" ry="34" fill="#8b5cf6"/>
+    <line x1="150" y1="96" x2="150" y2="162" stroke="#5b21b6" stroke-width="3"/>
+    <circle cx="150" cy="80" r="17" fill="#6d28d9"/>
+    <circle cx="143" cy="78" r="4.5" fill="#fff"/><circle cx="157" cy="78" r="4.5" fill="#fff"/>
+    <circle cx="144" cy="79" r="2" fill="#0a0f1f"/><circle cx="158" cy="79" r="2" fill="#0a0f1f"/>
+    <circle cx="138" cy="118" r="5" fill="#c4b5fd" fill-opacity=".7"/>
+    <circle cx="162" cy="140" r="4" fill="#c4b5fd" fill-opacity=".7"/>
+  </g>
+
+  <!-- magnifying glass chasing the bug -->
+  <g class="lens">
+    <circle cx="232" cy="78" r="24" fill="#22d3ee" fill-opacity="0.12" stroke="#67e8f9" stroke-width="5"/>
+    <line x1="249" y1="95" x2="272" y2="118" stroke="#67e8f9" stroke-width="7" stroke-linecap="round"/>
+  </g>
+
+  <g fill="#fcd34d">
+    <circle class="spark" cx="70" cy="50" r="3"/>
+    <circle class="spark" cx="250" cy="190" r="2.5" style="animation-delay:-.7s"/>
+    <circle class="spark" cx="60" cy="180" r="2" style="animation-delay:-1.3s"/>
+  </g>
+
+  <!-- header -->
+  <text x="330" y="62" class="mono" font-size="17" fill="#94a3b8">$ cat fun_facts.txt <tspan fill="#64748b">| shuf</tspan></text>
+
+  <!-- rotating facts -->
+  <g font-size="27" font-weight="600" fill="#f1f5f9">
+    <g class="fact f1">
+      <text x="330" y="128">I break software for a living:</text>
+      <text x="330" y="166"><tspan fill="url(#hl)" font-weight="800">500+ bugs</tspan> found, and the count keeps climbing.</text>
+    </g>
+    <g class="fact f2">
+      <text x="330" y="128">I built an AI whose only job is</text>
+      <text x="330" y="166">to <tspan fill="url(#hl)" font-weight="800">break my other code</tspan>. It's very good at it.</text>
+    </g>
+    <g class="fact f3">
+      <text x="330" y="128">I made our CI pipeline <tspan fill="url(#hl)" font-weight="800">2x faster</tspan>.</text>
+      <text x="330" y="166">Waiting on builds was never my thing.</text>
+    </g>
+    <g class="fact f4">
+      <text x="330" y="128">I evaluate LLMs at work, and sometimes</text>
+      <text x="330" y="166">I hire <tspan fill="url(#hl)" font-weight="800">another LLM as the judge</tspan>.</text>
+    </g>
+    <g class="fact f5">
+      <text x="330" y="128">I solve Codeforces problems <tspan fill="url(#hl)" font-weight="800">for fun</tspan>.</text>
+      <text x="330" y="166">Yes, for fun. (1200+ rating, CodeChef 3★)</text>
+    </g>
+  </g>
+
+  <!-- progress dots -->
+  <g>
+    <circle class="dot p1" cx="336" cy="200" r="5"/>
+    <circle class="dot p2" cx="356" cy="200" r="5"/>
+    <circle class="dot p3" cx="376" cy="200" r="5"/>
+    <circle class="dot p4" cx="396" cy="200" r="5"/>
+    <circle class="dot p5" cx="416" cy="200" r="5"/>
+  </g>
+</svg>
