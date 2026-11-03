@@ -15,6 +15,11 @@
 </p>
 
 <p align="center">
+  <a href="https://www.linkedin.com/in/rohan-chawla-607145229/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:rohanchawla515@gmail.com"><img src="https://img.shields.io/badge/Email-rohanchawla515%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email rohanchawla515@gmail.com" /></a>
+</p>
+
+<p align="center">
   <img src="https://komarev.com/ghpvc/?username=rohanchawla2003&style=flat-square&color=7c3aed&label=Profile+views" alt="profile views" />
 </p>
 
@@ -29,6 +34,7 @@
 | 🎓 **Education** | B.Tech CSE, Maharaja Agrasen Institute of Technology, 2025 · **CGPA 8.6** |
 | 🎯 **Open to** | **AI Engineer / GenAI / LLM Engineer** · **SDET / QA Automation** · **Backend / SDE-1 (Python, Java)** |
 | 🧠 **Problem solving** | Codeforces **1200+** · CodeChef **3★** · Hackathon special mention |
+| 📬 **Reach me** | [rohanchawla515@gmail.com](mailto:rohanchawla515@gmail.com) · [LinkedIn](https://www.linkedin.com/in/rohan-chawla-607145229/) |
 
 ---
 
@@ -137,6 +143,11 @@
 
 <p align="center">
   <b>💬 Hiring for AI, SDET or Backend? I'd love to hear from you.</b>
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/rohan-chawla-607145229/"><img src="https://img.shields.io/badge/Message%20me%20on-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Message me on LinkedIn" /></a>
+  <a href="mailto:rohanchawla515@gmail.com?subject=Opportunity%20for%20Rohan"><img src="https://img.shields.io/badge/Drop%20an-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Send an email" /></a>
 </p>
 
 <p align="center">
