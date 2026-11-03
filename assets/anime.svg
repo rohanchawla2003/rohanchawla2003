@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-label="Anime x Engineering: famous anime techniques translated into software engineering concepts.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#140a0a"/>
+      <stop offset="0.5" stop-color="#1c0f1f"/>
+      <stop offset="1" stop-color="#0a0f1f"/>
+    </linearGradient>
+    <linearGradient id="fire" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fbbf24"/>
+      <stop offset="0.5" stop-color="#f97316"/>
+      <stop offset="1" stop-color="#ef4444"/>
+    </linearGradient>
+    <radialGradient id="aura" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#f97316" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#f97316" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="frame"><rect width="1200" height="260" rx="22"/></clipPath>
+    <clipPath id="panel"><rect x="0" y="0" width="340" height="260"/></clipPath>
+    <style>
+      text { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+      .mono { font-family: 'Fira Code', Consolas, 'Courier New', monospace; }
+      .speed { animation: spin 40s linear infinite; transform-origin: 165px 130px; }
+      @keyframes spin { to { transform: rotate(360deg); } }
+      .shuriken { animation: spin 1.6s linear infinite; transform-origin: 165px 130px; }
+      .float { animation: bob 3s ease-in-out infinite; }
+      @keyframes bob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+      .aura { animation: aura 1.8s ease-in-out infinite; transform-origin: 165px 130px; }
+      @keyframes aura { 0%,100% { transform: scale(1); opacity: .7; } 50% { transform: scale(1.18); opacity: 1; } }
+      .flick { animation: flick 2.2s steps(1) infinite; }
+      @keyframes flick { 0%,100% { opacity: 1; } 47% { opacity: .3; } 50% { opacity: 1; } 53% { opacity: .4; } }
+      .item { opacity: 0; animation: item 24s ease-in-out infinite both; }
+      @keyframes item {
+        0%   { opacity: 0; transform: translateX(40px) skewX(-8deg); }
+        3%   { opacity: 1; transform: translateX(0) skewX(0); }
+        13.67%  { opacity: 1; transform: translateX(0); }
+        16.67%  { opacity: 0; transform: translateX(-40px); }
+        100% { opacity: 0; transform: translateX(-40px); }
+      }
+      .seg { fill: #3f2a2a; animation: seg 24s steps(1) infinite; }
+      @keyframes seg { 0% { fill: #f97316; } 16.67% { fill: #3f2a2a; } }
+    </style>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="260" fill="url(#bg)"/>
+    <text x="1180" y="232" text-anchor="end" font-size="120" font-weight="900" fill="#ffffff" fill-opacity="0.04">エンジニア</text>
+    <g clip-path="url(#panel)">
+      <rect width="340" height="260" fill="#0d0606"/>
+      <g class="speed" stroke="#f97316" stroke-opacity="0.35">
+        <line x1="235.0" y1="130.0" x2="425.0" y2="130.0" stroke-width="1.2"/>
+        <line x1="242.3" y1="140.2" x2="422.8" y2="163.9" stroke-width="2.1"/>
+        <line x1="248.1" y1="152.3" x2="416.1" y2="197.3" stroke-width="3.0"/>
+        <line x1="229.7" y1="156.8" x2="405.2" y2="229.5" stroke-width="3.9"/>
+        <line x1="232.5" y1="169.0" x2="390.2" y2="260.0" stroke-width="1.2"/>
+        <line x1="233.2" y1="182.4" x2="371.3" y2="288.3" stroke-width="2.1"/>
+        <line x1="214.5" y1="179.5" x2="348.8" y2="313.8" stroke-width="3.0"/>
+        <line x1="212.5" y1="191.9" x2="323.3" y2="336.3" stroke-width="3.9"/>
+        <line x1="208.0" y1="204.5" x2="295.0" y2="355.2" stroke-width="1.2"/>
+        <line x1="191.8" y1="194.7" x2="264.5" y2="370.2" stroke-width="2.1"/>
+        <line x1="185.2" y1="205.3" x2="232.3" y2="381.1" stroke-width="3.0"/>
+        <line x1="176.2" y1="215.3" x2="198.9" y2="387.8" stroke-width="3.9"/>
+        <line x1="165.0" y1="200.0" x2="165.0" y2="390.0" stroke-width="1.2"/>
+        <line x1="154.8" y1="207.3" x2="131.1" y2="387.8" stroke-width="2.1"/>
+        <line x1="142.7" y1="213.1" x2="97.7" y2="381.1" stroke-width="3.0"/>
+        <line x1="138.2" y1="194.7" x2="65.5" y2="370.2" stroke-width="3.9"/>
+        <line x1="126.0" y1="197.5" x2="35.0" y2="355.2" stroke-width="1.2"/>
+        <line x1="112.6" y1="198.2" x2="6.7" y2="336.3" stroke-width="2.1"/>
+        <line x1="115.5" y1="179.5" x2="-18.8" y2="313.8" stroke-width="3.0"/>
+        <line x1="103.1" y1="177.5" x2="-41.3" y2="288.3" stroke-width="3.9"/>
+        <line x1="90.5" y1="173.0" x2="-60.2" y2="260.0" stroke-width="1.2"/>
+        <line x1="100.3" y1="156.8" x2="-75.2" y2="229.5" stroke-width="2.1"/>
+        <line x1="89.7" y1="150.2" x2="-86.1" y2="197.3" stroke-width="3.0"/>
+        <line x1="79.7" y1="141.2" x2="-92.8" y2="163.9" stroke-width="3.9"/>
+        <line x1="95.0" y1="130.0" x2="-95.0" y2="130.0" stroke-width="1.2"/>
+        <line x1="87.7" y1="119.8" x2="-92.8" y2="96.1" stroke-width="2.1"/>
+        <line x1="81.9" y1="107.7" x2="-86.1" y2="62.7" stroke-width="3.0"/>
+        <line x1="100.3" y1="103.2" x2="-75.2" y2="30.5" stroke-width="3.9"/>
+        <line x1="97.5" y1="91.0" x2="-60.2" y2="0.0" stroke-width="1.2"/>
+        <line x1="96.8" y1="77.6" x2="-41.3" y2="-28.3" stroke-width="2.1"/>
+        <line x1="115.5" y1="80.5" x2="-18.8" y2="-53.8" stroke-width="3.0"/>
+        <line x1="117.5" y1="68.1" x2="6.7" y2="-76.3" stroke-width="3.9"/>
+        <line x1="122.0" y1="55.5" x2="35.0" y2="-95.2" stroke-width="1.2"/>
+        <line x1="138.2" y1="65.3" x2="65.5" y2="-110.2" stroke-width="2.1"/>
+        <line x1="144.8" y1="54.7" x2="97.7" y2="-121.1" stroke-width="3.0"/>
+        <line x1="153.8" y1="44.7" x2="131.1" y2="-127.8" stroke-width="3.9"/>
+        <line x1="165.0" y1="60.0" x2="165.0" y2="-130.0" stroke-width="1.2"/>
+        <line x1="175.2" y1="52.7" x2="198.9" y2="-127.8" stroke-width="2.1"/>
+        <line x1="187.3" y1="46.9" x2="232.3" y2="-121.1" stroke-width="3.0"/>
+        <line x1="191.8" y1="65.3" x2="264.5" y2="-110.2" stroke-width="3.9"/>
+        <line x1="204.0" y1="62.5" x2="295.0" y2="-95.2" stroke-width="1.2"/>
+        <line x1="217.4" y1="61.8" x2="323.3" y2="-76.3" stroke-width="2.1"/>
+        <line x1="214.5" y1="80.5" x2="348.8" y2="-53.8" stroke-width="3.0"/>
+        <line x1="226.9" y1="82.5" x2="371.3" y2="-28.3" stroke-width="3.9"/>
+        <line x1="239.5" y1="87.0" x2="390.2" y2="-0.0" stroke-width="1.2"/>
+        <line x1="229.7" y1="103.2" x2="405.2" y2="30.5" stroke-width="2.1"/>
+        <line x1="240.3" y1="109.8" x2="416.1" y2="62.7" stroke-width="3.0"/>
+        <line x1="250.3" y1="118.8" x2="422.8" y2="96.1" stroke-width="3.9"/>
+      </g>
+    </g>
+    <line x1="340" y1="0" x2="340" y2="260" stroke="#f97316" stroke-opacity="0.6" stroke-width="3"/>
+  </g>
+
+  <!-- original emblem: aura + spinning shuriken -->
+  <g class="float">
+    <circle class="aura" cx="165" cy="130" r="90" fill="url(#aura)"/>
+    <g class="shuriken">
+      <polygon points="165.0,78.0 176.3,118.7 217.0,130.0 176.3,141.3 165.0,182.0 153.7,141.3 113.0,130.0 153.7,118.7" fill="#cbd5e1" stroke="#0f172a" stroke-width="3" stroke-linejoin="round"/>
+      <circle cx="165" cy="130" r="8" fill="#0f172a"/>
+      <circle cx="165" cy="130" r="3.5" fill="#cbd5e1"/>
+    </g>
+  </g>
+  <text x="165" y="236" text-anchor="middle" class="mono flick" font-size="15" font-weight="700" fill="#fbbf24">POWER LEVEL: OVER 9000</text>
+
+  <text x="380" y="46" class="mono" font-size="17" fill="#94a3b8">$ anime --translate-to=engineering</text>
+
+    <g class="item" style="animation-delay:0s">
+      <rect x="380" y="78" width="91" height="26" rx="4" fill="#f97316" fill-opacity="0.15" stroke="#f97316" stroke-opacity="0.7"/>
+      <text x="394" y="96" class="mono" font-size="14" font-weight="700" fill="#fdba74" letter-spacing="1.5">NARUTO</text>
+      <text x="380" y="150" font-size="38" font-weight="900" font-style="italic" fill="url(#fire)">Shadow Clone Jutsu</text>
+      <text x="382" y="194" font-size="22" fill="#e2e8f0"><tspan fill="#f97316" font-weight="800">→ </tspan>That's just horizontal scaling on Kubernetes.</text>
+    </g>
+    <g class="item" style="animation-delay:4s">
+      <rect x="380" y="78" width="91" height="26" rx="4" fill="#f97316" fill-opacity="0.15" stroke="#f97316" stroke-opacity="0.7"/>
+      <text x="394" y="96" class="mono" font-size="14" font-weight="700" fill="#fdba74" letter-spacing="1.5">NARUTO</text>
+      <text x="380" y="150" font-size="38" font-weight="900" font-style="italic" fill="url(#fire)">Sharingan</text>
+      <text x="382" y="194" font-size="22" fill="#e2e8f0"><tspan fill="#f97316" font-weight="800">→ </tspan>Observability. I see every log, metric and trace.</text>
+    </g>
+    <g class="item" style="animation-delay:8s">
+      <rect x="380" y="78" width="175" height="26" rx="4" fill="#f97316" fill-opacity="0.15" stroke="#f97316" stroke-opacity="0.7"/>
+      <text x="394" y="96" class="mono" font-size="14" font-weight="700" fill="#fdba74" letter-spacing="1.5">JUJUTSU KAISEN</text>
+      <text x="380" y="150" font-size="38" font-weight="900" font-style="italic" fill="url(#fire)">Domain Expansion</text>
+      <text x="382" y="194" font-size="22" fill="#e2e8f0"><tspan fill="#f97316" font-weight="800">→ </tspan>My test environment. Inside it, every bug is a guaranteed hit.</text>
+    </g>
+    <g class="item" style="animation-delay:12s">
+      <rect x="380" y="78" width="228" height="26" rx="4" fill="#f97316" fill-opacity="0.15" stroke="#f97316" stroke-opacity="0.7"/>
+      <text x="394" y="96" class="mono" font-size="14" font-weight="700" fill="#fdba74" letter-spacing="1.5">FULLMETAL ALCHEMIST</text>
+      <text x="380" y="150" font-size="38" font-weight="900" font-style="italic" fill="url(#fire)">Equivalent Exchange</text>
+      <text x="382" y="194" font-size="22" fill="#e2e8f0"><tspan fill="#f97316" font-weight="800">→ </tspan>Every system design trade-off. Latency for consistency.</text>
+    </g>
+    <g class="item" style="animation-delay:16s">
+      <rect x="380" y="78" width="186" height="26" rx="4" fill="#f97316" fill-opacity="0.15" stroke="#f97316" stroke-opacity="0.7"/>
+      <text x="394" y="96" class="mono" font-size="14" font-weight="700" fill="#fdba74" letter-spacing="1.5">ATTACK ON TITAN</text>
+      <text x="380" y="150" font-size="38" font-weight="900" font-style="italic" fill="url(#fire)">The Walls</text>
+      <text x="382" y="194" font-size="22" fill="#e2e8f0"><tspan fill="#f97316" font-weight="800">→ </tspan>Multi-tenant isolation. Nothing gets through.</text>
+    </g>
+    <g class="item" style="animation-delay:20s">
+      <rect x="380" y="78" width="164" height="26" rx="4" fill="#f97316" fill-opacity="0.15" stroke="#f97316" stroke-opacity="0.7"/>
+      <text x="394" y="96" class="mono" font-size="14" font-weight="700" fill="#fdba74" letter-spacing="1.5">DRAGON BALL Z</text>
+      <text x="380" y="150" font-size="38" font-weight="900" font-style="italic" fill="url(#fire)">It&#39;s over 9000!</text>
+      <text x="382" y="194" font-size="22" fill="#e2e8f0"><tspan fill="#f97316" font-weight="800">→ </tspan>My reaction to the load-test dashboard.</text>
+    </g>
+
+  <rect class="seg" x="382" y="222" width="26" height="5" rx="2.5" style="animation-delay:0s"/><rect class="seg" x="416" y="222" width="26" height="5" rx="2.5" style="animation-delay:4s"/><rect class="seg" x="450" y="222" width="26" height="5" rx="2.5" style="animation-delay:8s"/><rect class="seg" x="484" y="222" width="26" height="5" rx="2.5" style="animation-delay:12s"/><rect class="seg" x="518" y="222" width="26" height="5" rx="2.5" style="animation-delay:16s"/><rect class="seg" x="552" y="222" width="26" height="5" rx="2.5" style="animation-delay:20s"/>
+</svg>

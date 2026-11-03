@@ -104,6 +104,29 @@ I care about understanding systems deeply enough to know **exactly how they brea
 
 ---
 
+## 🎌 Anime × Engineering
+
+<p align="center">
+  <img src="assets/anime.svg" width="100%" alt="Anime techniques translated into engineering concepts" />
+</p>
+
+<details>
+<summary><b>The full translation guide 📜</b></summary>
+<br/>
+
+| Anime | Technique | In engineering terms |
+|---|---|---|
+| 🍥 Naruto | **Shadow Clone Jutsu** | That's just horizontal scaling on Kubernetes. |
+| 👁️ Naruto | **Sharingan** | Observability. I see every log, metric and trace. |
+| 🤞 Jujutsu Kaisen | **Domain Expansion** | My test environment. Inside it, every bug is a guaranteed hit. |
+| ⚗️ Fullmetal Alchemist | **Equivalent Exchange** | Every system design trade-off. Latency for consistency. |
+| 🧱 Attack on Titan | **The Walls** | Multi-tenant isolation. Nothing gets through. |
+| 🐉 Dragon Ball Z | **"It's over 9000!"** | My reaction to the load-test dashboard. |
+
+</details>
+
+---
+
 ## 🛠️ Tech Stack
 
 <table>
