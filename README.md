@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/hero.svg" width="100%" alt="Rohan Chawla: SDET I at Cyware Labs. AI Engineering, SDET and Backend Services." />
+  <img src="assets/hero.svg" width="100%" alt="Rohan Chawla: SDET I at Cyware Labs, Bangalore." />
 </p>
 
 <p align="center">
