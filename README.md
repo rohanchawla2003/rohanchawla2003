@@ -3,83 +3,84 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/rohanchawla2003">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1400&color=A78BFA&center=true&vCenter=true&width=820&lines=Hiring+an+AI+Engineer%3F+I+build+%26+evaluate+LLM+systems.;Hiring+an+SDET%3F+500%2B+defects+caught+before+production.;Hiring+a+Backend+Engineer%3F+Microservices+at+scale%2C+on+K8s.;All+three%3F+Even+better.+Let's+talk+%F0%9F%91%8B" alt="Hiring an AI Engineer, SDET or Backend Engineer? Let's talk." />
-  </a>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1400&color=A78BFA&center=true&vCenter=true&width=820&lines=Designing+API+automation+for+distributed+microservices;Evaluating+LLMs+with+RAGAS%2C+DeepEval+%26+LLM-as-judge;Stress-testing+multi-tenant+systems+on+Kubernetes;Building+agentic+AI+that+writes+its+own+negative+tests" alt="Designing API automation for distributed microservices. Evaluating LLMs. Stress-testing multi-tenant systems on Kubernetes. Building agentic AI." />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Open%20to-AI%20%7C%20SDET%20%7C%20Backend%20roles-22c55e?style=for-the-badge" alt="Open to AI, SDET and Backend roles" />
-  <img src="https://img.shields.io/badge/Experience-2%2B%20yrs%20(incl.%20internship)-7c3aed?style=for-the-badge" alt="Experience" />
-  <img src="https://img.shields.io/badge/Based%20in-Bangalore-0891b2?style=for-the-badge" alt="Bangalore" />
-</p>
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/rohan-chawla-607145229/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://www.linkedin.com/in/rohan-chawla-607145229/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:rohanchawla515@gmail.com"><img src="https://img.shields.io/badge/Email-rohanchawla515%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email rohanchawla515@gmail.com" /></a>
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=rohanchawla2003&style=flat-square&color=7c3aed&label=Profile+views" alt="profile views" />
+  <img src="https://komarev.com/ghpvc/?username=rohanchawla2003&style=for-the-badge&color=7c3aed&label=Profile+views" alt="profile views" />
 </p>
 
 ---
 
-## ⚡ Recruiter TL;DR
+## 👨‍💻 About
 
-| | |
+I'm an engineer at **Cyware Labs** working where **distributed systems, quality engineering and applied AI** meet. Day to day I design the frameworks that validate a microservices-based security platform. That means simulating failures across services, pushing multi-tenant workloads on Kubernetes, and building LLM-powered tooling that finds bugs humans miss.
+
+I care about understanding systems deeply enough to know **exactly how they break**, and engineering them so they don't.
+
+---
+
+## 🧠 What I Work On
+
+### 🤖 AI Engineering & LLM Evaluation
+
+> *An LLM feature is only as good as your ability to measure it.*
+
+- Built an **agentic AI negative-test generator** that automatically produces the invalid and edge-case inputs most likely to break a service
+- Evaluate LLM and RAG pipelines with **RAGAS, DeepEval and promptfoo**, plus **LLM-as-judge** scoring and **guardrails**, with tracing in **LangSmith / Langfuse**
+- Work across the RAG stack: **embeddings, hybrid search, re-ranking**, and vector stores (**Pinecone, Qdrant, Chroma, FAISS, pgvector**)
+- Orchestrate agents with **LangGraph, LangChain, LlamaIndex, CrewAI** and **MCP**, on top of **OpenAI, Claude, Gemini and Bedrock**
+
+<details>
+<summary><b>📐 How I evaluate an LLM / RAG system</b></summary>
+<br/>
+
+1. **Golden dataset first:** curated questions with expected answers and source context, versioned alongside the code
+2. **Score retrieval and generation separately:** context precision / recall for the retriever; faithfulness and answer relevancy for the generator
+3. **LLM-as-judge with explicit rubrics**, calibrated against human-labelled samples so the judge itself is trustworthy
+4. **Adversarial and safety cases:** prompt injection, jailbreaks, out-of-scope queries, with guardrails verified, not assumed
+5. **Evals as regression tests:** run in CI on every prompt, model or retriever change, so quality can't silently drift
+6. **Trace everything:** inspect failing runs step by step in LangSmith / Langfuse to fix root causes, not symptoms
+
+</details>
+
+### 🧪 Quality Engineering for Distributed Systems
+
+> *A green test suite should mean something.*
+
+| What I built | Impact |
 |---|---|
-| 🏢 **Current role** | SDET I @ **Cyware Labs**, Bangalore (Aug 2025 – present) |
-| 🧪 **Before that** | SDET Intern @ Cyware Labs (Aug 2024 – Aug 2025) |
-| 🎓 **Education** | B.Tech CSE, Maharaja Agrasen Institute of Technology, 2025 · **CGPA 8.6** |
-| 🎯 **Open to** | **AI Engineer / GenAI / LLM Engineer** · **SDET / QA Automation** · **Backend / SDE-1 (Python, Java)** |
-| 🧠 **Problem solving** | Codeforces **1200+** · CodeChef **3★** · Hackathon special mention |
-| 📬 **Reach me** | [rohanchawla515@gmail.com](mailto:rohanchawla515@gmail.com) · [LinkedIn](https://www.linkedin.com/in/rohan-chawla-607145229/) |
+| ⚙️ **API automation framework** for distributed microservices | **+75%** developer productivity |
+| 🔗 **Centralized cross-service workflow framework** | **+40%** testing efficiency |
+| 💥 **Failure & edge-case simulation** across services | **20+** critical cross-service defects caught |
+| 🚀 **Dockerized Jenkins CI/CD** for UI + API suites | **−50%** execution time |
+| 🧪 **Selenium + PyTest regression suites** | **−35%** manual QA effort · **500+** defects reported |
+| 🔄 **Upgrade validation framework** & cross-product test repository | Safer releases across the product suite |
 
----
+<details>
+<summary><b>📐 How I test a distributed system</b></summary>
+<br/>
 
-## 🎯 Pick the role you're hiring for
+1. **Contracts before flows:** validate each service's API schema, status codes and error semantics in isolation
+2. **Then the workflows:** end-to-end cross-service scenarios that follow data as it moves through queues and services
+3. **Break it on purpose:** service timeouts, partial failures, retries, out-of-order and duplicate events (is it *really* idempotent?)
+4. **Concurrency and scale:** parallel writers, race conditions, and load against realistic multi-tenant data volumes
+5. **Tenant isolation:** prove one tenant can never see, slow down or corrupt another's data
+6. **Upgrades are features too:** validate data, config and API compatibility across version upgrades
+7. **Observability is part of the test:** correlate failures with logs and Grafana metrics, so a bug report ships with its root cause
 
-<table>
-<tr>
-<td width="33%" valign="top">
+</details>
 
-### 🤖 AI Engineer
-*Shipping LLM features you can actually trust.*
+### ⚙️ Backend & Distributed Systems
 
-- **LLM evaluation** in production at Cyware: RAGAS, DeepEval, promptfoo, LLM-as-judge, guardrails
-- Built an **agentic AI negative-test generator** that discovers edge cases on its own
-- **RAG**: embeddings, hybrid search, re-ranking, vector DBs
-- LangGraph · LangChain · MCP · multi-agent systems
-- LLM APIs: OpenAI, Claude, Gemini, Bedrock
+> *Systems that stay up when the traffic doesn't stay down.*
 
-</td>
-<td width="33%" valign="top">
-
-### 🧪 SDET / QA Automation
-*Catching it before your customers do.*
-
-- **API automation framework** for distributed microservices → **+75%** dev productivity
-- **Failure & edge-case simulation** → **20+** critical cross-service defects
-- **Selenium + PyTest** regression suites → **−35%** manual QA
-- **Dockerized Jenkins CI/CD** → **−50%** execution time
-- **500+** defects reported · upgrade-validation framework
-
-</td>
-<td width="33%" valign="top">
-
-### ⚙️ Backend Engineer
-*Systems that stay up when traffic doesn't stay down.*
-
-- Deep hands-on with **distributed microservices**: I test them where they break
-- **Multi-tenancy, concurrency & scale** testing on **Kubernetes**
-- Centralized **cross-service workflow framework** → **+40%** efficiency
-- Python · Java · REST APIs · Django · Kafka
-- SQL / NoSQL · Docker · AWS · Grafana
-
-</td>
-</tr>
-</table>
+- Deep, hands-on understanding of **microservices, async processing, event streaming (Kafka)** and the failure modes between them
+- **Multi-tenancy, concurrency and scalability** testing on **Kubernetes** for production-grade workloads
+- Build services and tooling in **Python (Django, FastAPI)** and **Java**, backed by **SQL / NoSQL** stores and **Redis**
+- Ship through **Docker → Jenkins → Kubernetes on AWS**, with **Grafana** and log analysis to understand behaviour in production
 
 ---
 
@@ -107,15 +108,16 @@
 
 <table>
 <tr><td><b>Languages</b></td><td><img src="https://skillicons.dev/icons?i=python,java,js,ts&theme=dark" alt="Python, Java, JavaScript, TypeScript" /></td></tr>
-<tr><td><b>Testing</b></td><td><img src="https://skillicons.dev/icons?i=selenium,postman&theme=dark" alt="Selenium, Postman" /><br/><sub>PyTest · Playwright · SoapUI · API / UI / E2E / Load / Regression testing</sub></td></tr>
+<tr><td><b>Testing</b></td><td><img src="https://skillicons.dev/icons?i=selenium,postman&theme=dark" alt="Selenium, Postman" /><br/><sub>PyTest · Playwright · SoapUI · API / UI / E2E / Load / Regression testing · TDD</sub></td></tr>
 <tr><td><b>Backend & Infra</b></td><td><img src="https://skillicons.dev/icons?i=django,fastapi,kafka,docker,kubernetes,jenkins,aws,grafana,git,linux&theme=dark" alt="Django, FastAPI, Kafka, Docker, Kubernetes, Jenkins, AWS, Grafana, Git, Linux" /></td></tr>
 <tr><td><b>Databases</b></td><td><img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis&theme=dark" alt="PostgreSQL, MySQL, MongoDB, Redis" /></td></tr>
 <tr><td><b>AI / LLM</b></td><td>
 <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langgraph&logoColor=white" alt="LangGraph" />
 <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangChain" />
+<img src="https://img.shields.io/badge/LlamaIndex-6E40C9?style=flat-square" alt="LlamaIndex" />
 <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
-<img src="https://img.shields.io/badge/RAG-6E40C9?style=flat-square" alt="RAG" />
 <img src="https://img.shields.io/badge/RAGAS%20%C2%B7%20DeepEval%20%C2%B7%20promptfoo-0A66C2?style=flat-square" alt="LLM evaluation tools" />
+<img src="https://img.shields.io/badge/Vector%20DBs-Pinecone%20%C2%B7%20Qdrant%20%C2%B7%20pgvector-0f766e?style=flat-square" alt="Vector databases" />
 <img src="https://img.shields.io/badge/MCP-000000?style=flat-square" alt="MCP" />
 <img src="https://img.shields.io/badge/Claude%20Code-D97757?style=flat-square&logo=anthropic&logoColor=white" alt="Claude Code" />
 <img src="https://img.shields.io/badge/Cursor-111111?style=flat-square" alt="Cursor" />
@@ -124,7 +126,15 @@
 
 ---
 
-## 🚀 Featured Projects
+## 🎓 Foundations
+
+- **B.Tech, Computer Science & Engineering**, Maharaja Agrasen Institute of Technology (2025) · **CGPA 8.6**
+- **Competitive programming:** Codeforces **1200+** · CodeChef **3★**
+- Internal hackathon **special mention**
+
+---
+
+## 🚀 Projects
 
 | Project | What it does | Tech |
 |---|---|---|
@@ -133,7 +143,7 @@
 | [🎮 2048 Game](https://github.com/rohanchawla2003/2048-game) | The classic 2048 sliding-tile puzzle, built from scratch | C++ |
 | [🛒 Amazon Clone](https://github.com/rohanchawla2003/AmazonClone) | Front-end clone of the Amazon homepage | HTML · CSS |
 
-<sub>Most of my day-to-day work at Cyware lives in private repositories.</sub>
+<sub>Most of my production work at Cyware lives in private repositories.</sub>
 
 ---
 
@@ -142,12 +152,12 @@
 </p>
 
 <p align="center">
-  <b>💬 Hiring for AI, SDET or Backend? I'd love to hear from you.</b>
+  <b>💬 Always happy to talk distributed systems, testing strategy or LLM evaluation.</b>
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/rohan-chawla-607145229/"><img src="https://img.shields.io/badge/Message%20me%20on-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Message me on LinkedIn" /></a>
-  <a href="mailto:rohanchawla515@gmail.com?subject=Opportunity%20for%20Rohan"><img src="https://img.shields.io/badge/Drop%20an-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Send an email" /></a>
+  <a href="https://www.linkedin.com/in/rohan-chawla-607145229/"><img src="https://img.shields.io/badge/Connect%20on-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn" /></a>
+  <a href="mailto:rohanchawla515@gmail.com"><img src="https://img.shields.io/badge/Say-Hello-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Send an email" /></a>
 </p>
 
 <p align="center">
