@@ -148,10 +148,6 @@ I care about understanding systems deeply enough to know **exactly how they brea
 ---
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=rohanchawla2003&theme=tokyonight&hide_border=true&background=0A0F1F&ring=A78BFA&fire=F472B6&currStreakLabel=A78BFA" alt="GitHub streak" />
-</p>
-
-<p align="center">
   <b>💬 Always happy to talk distributed systems, testing strategy or LLM evaluation.</b>
 </p>
 
